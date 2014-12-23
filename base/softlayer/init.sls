@@ -2,14 +2,14 @@ python:
   pkg:
     - installed
 
-pip:
+python-pip:
   pkg:
     - installed
 
 softlayer:
   pip.installed:
     - require:
-      pkg: python-pip
+      - pkg: python-pip
 
 /root/.softlayer:
   file.managed:
