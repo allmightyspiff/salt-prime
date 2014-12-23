@@ -7,9 +7,9 @@ pip:
     - installed
 
 softlayer:
-  pip.installed
+  pip.installed:
     - require:
-      cmd: python-pip
+      pkg: python-pip
 
 /root/.softlayer:
   file.managed:
