@@ -1,3 +1,4 @@
+testset
 python:
   pkg:
     - installed
