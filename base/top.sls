@@ -1,4 +1,3 @@
-BADCODE
 base:
   '*':
     - vim/vim
