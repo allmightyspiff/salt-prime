@@ -1,6 +1,6 @@
 lxc:
   pkg:
-    -installed
+    - installed
 
 /root/testing.txt:
   file.managed:
