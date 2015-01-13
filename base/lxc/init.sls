@@ -1,8 +1,8 @@
 lxc:
-    pkg:
-        -installed
+  pkg:
+    -installed
 
-/root/testing.txt
+/root/testing.txt:
   file.managed:
     - source: salt://lxc/testing.txt
     - mode: 644
