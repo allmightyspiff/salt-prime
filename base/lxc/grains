@@ -1,0 +1,4 @@
+roles:
+  - salt-lxc
+deployment: dal09
+node_type: lxc

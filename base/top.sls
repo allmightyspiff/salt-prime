@@ -6,4 +6,10 @@ base:
   'node_type:lxc':
     - match: grain
     - lxc
-    - lxc/cloud
+
+  'salt-buildbot.cgallo.com':
+    - prime
+
+  'node_type:prime':
+    - match: grain
+    - prime/cloud

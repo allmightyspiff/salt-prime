@@ -1,0 +1,6 @@
+roles:
+  - prime
+deployment: dal09
+node_type:
+    - prime
+    - buildbot
