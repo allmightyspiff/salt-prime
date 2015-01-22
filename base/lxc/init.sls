@@ -9,6 +9,21 @@ lxc:
     - user: root
     - group: root
 
+/etc/salt/cloud.providers.d:
+    file.directory:
+        - user: root
+        - group: root
+        - dir_mode: 755
+        - file_mode: 644
+        
+/etc/salt/cloud.profiles.d:
+    file.directory:
+        - user: root
+        - group: root
+        - dir_mode: 755
+        - file_mode: 644
+
+
 /etc/salt/cloud.providers.d/lxc.conf:
   file.managed:
     - source: salt://lxc/lxc.conf
