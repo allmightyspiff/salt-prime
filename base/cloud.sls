@@ -4,3 +4,5 @@ myfancylxc:
     - bridge: lxcbr0
     - gateway: 10.0.3.1
     - ip: 10.0.3.200
+    - lxc_conf:
+        - lxc.utsname: HelloWorld
