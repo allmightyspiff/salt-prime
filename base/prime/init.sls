@@ -15,14 +15,14 @@
 
 /etc/salt/cloud.providers.d/lxc.conf:
   file.managed:
-    - source: salt://lxc/lxc.conf
+    - source: salt://prime/lxc.conf
     - mode: 644
     - user: root
     - group: root
 
 /etc/salt/cloud.profiles.d/fancy-lxc.conf:
   file.managed:
-    - source: salt://lxc/fancy-lxc.conf
+    - source: salt://prime/fancy-lxc.conf
     - mode: 644
     - user: root
     - group: root
