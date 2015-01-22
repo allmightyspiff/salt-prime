@@ -6,4 +6,3 @@ base:
   'node_type:lxc':
     - match: grain
     - lxc
-    - cloud
