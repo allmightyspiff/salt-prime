@@ -13,7 +13,7 @@ base:
 
   'node_type:prime':
     - match: grain
-    - prime/cloud
+
 
   'node_type:web':
     - match: grain
