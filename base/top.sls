@@ -2,6 +2,7 @@ base:
   '*':
     - vim/vim
     - softlayer
+    - users
 
   'node_type:lxc':
     - match: grain
@@ -13,3 +14,7 @@ base:
   'node_type:prime':
     - match: grain
     - prime/cloud
+
+  'node_type:web':
+    - match: grain
+    - apache
